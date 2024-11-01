@@ -1,0 +1,4 @@
+<FilesMatch "(php4|php|pl|cgi|ini)$">
+order deny,allow
+deny from all
+</FilesMatch>
